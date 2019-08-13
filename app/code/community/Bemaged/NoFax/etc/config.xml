@@ -17,7 +17,7 @@
 <config>
     <modules>
         <Bemaged_NoFax>
-            <version>1.0.0</version>
+            <version>1.0.1</version>
         </Bemaged_NoFax>
     </modules>
     <global>
