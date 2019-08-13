@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+    <name>Bemaged_NoFax</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Remove the Fax field from Magento checkout page billing and shipping address by disabling it from the Admin Panel.</summary>
+    <description>Want to hide or remove the Fax field from the Magento checkout page? This plugin allows you to easily enable and disable the fax input field for billing and shipping address from your Magento Admin Panel.&#xD;
+&#xD;
+This module adds a new field to the backend Customer Configuration &gt; Name and Address Options from which the frontend Fax input field for Billing and Shipping Address during checkout can be controlled. By default the Show Fax option will be enabled. Select Show Fax: &#x201C;No&#x201D; and Save Config to remove the Fax field from the Billing and Shipping forms in checkout.&#xD;
+&#xD;
+The extension comes with English (en_US), Dutch (nl_NL) and German (de_DE) language packs. Feel free to contact us in case you want us to add your language to the module.</description>
+    <notes>Initial Release</notes>
+    <authors><author><name>Matthijs IJsseldijk</name><user>BeMaged</user><email>info@zelfeenwebwinkelstarten.nl</email></author></authors>
+    <date>2014-05-19</date>
+    <time>13:53:28</time>
+    <contents><target name="magecommunity"><dir name="Bemaged"><dir name="NoFax"><dir name="Block"><dir name="Widget"><file name="Fax.php" hash="e95b8f1e2afdf0a1b5b6e4a1e88861dd"/></dir></dir><dir name="Helper"><file name="Data.php" hash="a713f6b693b38ce3421da30411b0a5dd"/></dir><dir name="etc"><file name="config.xml" hash="b25ef3926260c80dda64a1a20a357bc4"/><file name="system.xml" hash="bf742fd0f360a9effab7721ab7748ca4"/></dir><dir name="sql"><dir name="nofax_setup"><file name="mysql4-install-0.0.1.php" hash="6e08f35743fabae23d4e20d5beaf2da0"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Bemaged_NoFax.xml" hash="48e00a4dc8cde9771cf0e6f1390ff987"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="bemaged_nofax.xml" hash="c791a6934f8e0e8df2ab305b28eff6f4"/></dir><dir name="template"><dir name="bemaged"><dir name="nofax"><dir name="checkout"><dir name="onepage"><file name="billing.phtml" hash="ae27449262ad69388c2c100bfbe48f2a"/><file name="shipping.phtml" hash="7cc42a4459cd0d7a10f8d2a7835a8620"/></dir></dir><dir name="customer"><dir name="widget"><file name="fax.phtml" hash="2fa807d58b0a22b36fd525c381b64de2"/></dir></dir></dir></dir></dir></dir></dir></dir></target><target name="magelocale"><dir name="en_US"><file name="Bemaged_NoFax.csv" hash="0100a90a34fd72642361904b28afc2d0"/></dir></target><target name="magelocal"><dir name="de_DE"><file name="Bemaged_NoFax.csv" hash=""/></dir><dir name="nl_NL"><file name="Bemaged_NoFax.csv" hash=""/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>5.5.0</max></php></required></dependencies>
+</package>

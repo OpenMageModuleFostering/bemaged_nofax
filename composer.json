@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Bemaged_NoFax",
+    "type": "magento-module",
+    "license": "Open-Software-License-(OSL)",
+    "homepage": "",
+    "description": "Remove the Fax field from Magento checkout page billing and shipping address by disabling it from the Admin Panel.",
+    "authors": [
+    {
+        "name": "Matthijs IJsseldijk",
+        "email": "info@zelfeenwebwinkelstarten.nl"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
