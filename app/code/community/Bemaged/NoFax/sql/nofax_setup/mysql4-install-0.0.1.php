@@ -3,7 +3,7 @@
 * Bemaged NoFax Extension
 *
 * @category     Extension
-* @copyright    Copyright (c) 2014 Matthijs IJsseldijk (http://www.zelfeenwebwinkelstarten.nl)
+* @copyright    Copyright (c) 2015 Matthijs IJsseldijk (https://www.bemaged.com)
 * @author       Matthijs IJsseldijk
 * @license
 * @terms of use 
