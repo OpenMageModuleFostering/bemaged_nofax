@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<!--
+/**
+* Bemaged_NoFax
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Open Software License (OSL 3.0)
+* http://opensource.org/licenses/OSL-3.0
+*
+* @package      Bemaged_NoFax
+* @copyright    Copyright (c) 2014 Matthijs IJsseldijk (http://www.zelfeenwebwinkelstarten.nl)
+* @author       Matthijs IJsseldijk <info@zelfeenwebwinkelstarten.nl>
+* @license      http://opensource.org/licenses/OSL-3.0 Open Software License (OSL 3.0)
+*/
+-->
+<config>
+    <modules>
+        <Bemaged_NoFax>
+            <version>1.0.1</version>
+        </Bemaged_NoFax>
+    </modules>
+    <global>
+        <resources>
+            <nofax_setup>
+                <setup>
+                    <module>Bemaged_NoFax</module>
+                    <class>Mage_Eav_Model_Entity_Setup</class>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </nofax_setup>
+        </resources>
+        <blocks>
+            <nofax>
+                <class>Bemaged_NoFax_Block</class>
+            </nofax>
+        </blocks>
+        <helpers>
+            <nofax>
+                <class>Bemaged_NoFax_Helper</class>
+            </nofax>
+        </helpers>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <bemaged_nofax>
+                    <file>bemaged_nofax.xml</file>
+                </bemaged_nofax>
+            </updates>
+        </layout>
+    </frontend>
+    <adminhtml>
+        <translate>
+            <modules>
+                <Bemaged_NoFax>
+                    <files>
+                        <default>Bemaged_NoFax.csv</default>
+                    </files>
+                </Bemaged_NoFax>
+            </modules>
+        </translate>
+    </adminhtml>
+    <default>
+        <customer>
+            <address>
+                <fax_show>1</fax_show>
+            </address>
+        </customer>
+    </default>
+</config>
