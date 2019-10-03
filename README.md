@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 Remove the Fax field from Magento checkout page billing and shipping address by disabling it from the Admin Panel.
